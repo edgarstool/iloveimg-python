@@ -1,57 +1,25 @@
-# iLoveIMG API - Python Library
+# iloveimg-python
 
-A Python library for [iLoveIMG API](https://developer.iloveimg.com) to automate image processing tasks such as compressing, resizing, converting, cropping, watermarking, removing backgrounds, and more.
+## 專案簡介
 
-You can sign up for an iLoveIMG account at https://developer.iloveimg.com
+A Python library for [iLoveIMG API](https://developer.iloveimg.com) to automate image processing tasks such as compressi
 
-Develop and automate image processing tasks like Compress, Convert, Crop, Resize, Rotate, Watermark, Remove Background, and Upscale. Each task supports several settings to get your desired results.
+## 功能特色
 
----
+- 實用且可重用的開發元件
+- 適合個人或團隊研究與測試
+- 持續維護與更新
 
-## Requirements
+## 安裝方式
 
-- Python 3.9 to 3.12
+請參考專案內的設定檔或原始碼結構。
 
----
+## 使用說明
 
-## Installation
+1. clone 專案
+2. 按照各專案的原始碼或設定進行調整
+3. 執行或部署
 
-Install from PyPI:
+## 備註
 
-```bash
-pip install iloveimg
-```
-
-Or install the latest version from source:
-
-```bash
-pip install -U git+https://github.com/iloveimg/iloveimg-python.git@main#egg=iloveimg
-```
-
----
-
-## Getting Started
-
-Simple usage looks like:
-
-```python
-from iloveimg import CompressTask
-
-task = CompressTask(public_key="your_public_key", secret_key="your_secret_key")
-task.add_file("input.jpg")
-task.execute()
-task.download("output_folder")
-```
-
----
-
-## Project Structure & Documentation
-
-- Core library: [`iloveimg/`](iloveimg/README.md)
-- Example scripts: [`samples/`](samples/README.md)
-- Unit & integration tests: [`tests/`](tests/README.md)
-- Docker & environment setup: [`.docker/`](.docker/README.md)
-
-For detailed API documentation, visit the [official iLoveIMG API docs](https://developer.iloveimg.com/docs).
-
----
+此 README 為繁體中文版本，旨在統一 edgarstool 所有專案的閱讀體驗。
